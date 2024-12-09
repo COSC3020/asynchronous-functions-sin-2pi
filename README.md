@@ -20,3 +20,13 @@ this.
 
 What is the time complexity of your implementation (worst-case $\Theta$)? Add
 your answer, including your reasoning, to this markdown file.
+
+## Answer
+
+The worst case time complexity of this asynchronous function is $\Theta(n)$, $n$ being the length of the array.
+
+The reason for this is regardles off asynchronous execution, the function still has to iterate over every element in the array.
+
+## Sources
+
+Test code: https://github.com/COSC3020/asynchronous-functions-ZachRenz/blob/main/code.test.js
